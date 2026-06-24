@@ -1,0 +1,21 @@
+{
+  "recency_window_hours": 48,
+  "sources": [
+    {"name": "Kickstarter", "region": "international", "tier": "crowdfunding", "enabled": true},
+    {"name": "Indiegogo", "region": "international", "tier": "crowdfunding", "enabled": true},
+    {"name": "Crowd Supply", "region": "international", "tier": "crowdfunding", "enabled": true},
+    {"name": "Product Hunt", "region": "international", "tier": "launch", "enabled": true},
+    {"name": "Hackaday", "region": "international", "tier": "maker-media", "enabled": true},
+    {"name": "TechCrunch", "region": "international", "tier": "tech-media", "enabled": true},
+    {"name": "Wired Gear", "region": "international", "tier": "tech-media", "enabled": true},
+    {"name": "The Verge", "region": "international", "tier": "tech-media", "enabled": true},
+    {"name": "Engadget", "region": "international", "tier": "tech-media", "enabled": true},
+    {"name": "New Atlas", "region": "international", "tier": "design-tech-media", "enabled": true},
+    {"name": "Yanko Design", "region": "international", "tier": "design-media", "enabled": true},
+    {"name": "36氪", "region": "domestic", "tier": "business-tech-media", "enabled": true},
+    {"name": "极客公园", "region": "domestic", "tier": "tech-media", "enabled": true},
+    {"name": "爱范儿", "region": "domestic", "tier": "lifestyle-tech-media", "enabled": true},
+    {"name": "少数派", "region": "domestic", "tier": "consumer-tech-media", "enabled": true},
+    {"name": "IT之家", "region": "domestic", "tier": "tech-news", "enabled": true}
+  ]
+}

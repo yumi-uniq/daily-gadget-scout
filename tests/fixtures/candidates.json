@@ -1,0 +1,83 @@
+[
+  {
+    "source_name": "Kickstarter",
+    "source_region": "overseas",
+    "source_url": "https://www.kickstarter.com/projects/example/smart-ring-lab",
+    "product_name": "Smart Ring Lab",
+    "highlight": "A health and gesture smart ring with prototype demos.",
+    "country_region": "United States",
+    "stage": "crowdfunding",
+    "product_category": ["wearable", "ai-device"],
+    "target_audience": "Tech-forward wellness consumers",
+    "novelty_reason": "Combines health sensing with gesture controls in a ring-sized form.",
+    "trend_reason": "Wearable AI interfaces are moving beyond watches and phones.",
+    "evidence": ["Prototype video", "Crowdfunding page", "Founder update"],
+    "commercial_judgment": "Good for content first; sourcing needs delivery proof.",
+    "showroom_fit": "Can be explained through gesture demos and future interface storytelling.",
+    "risks": ["Delivery timeline is uncertain"],
+    "raw_score_signals": {
+      "novelty": 18,
+      "product_market_relevance": 14,
+      "evidence_strength": 11,
+      "content_value": 15,
+      "commercial_value": 9,
+      "showroom_fit": 8,
+      "trend_signal": 10,
+      "risk_penalty": 5
+    }
+  },
+  {
+    "source_name": "36氪",
+    "source_region": "domestic",
+    "source_url": "https://www.36kr.com/p/example-ai-projector",
+    "product_name": "AI Pocket Projector",
+    "highlight": "A portable projector with built-in scene-aware AI setup.",
+    "country_region": "China",
+    "stage": "launched",
+    "product_category": ["projector", "smart-home"],
+    "target_audience": "Young renters and small-space entertainment users",
+    "novelty_reason": "Uses AI calibration to reduce setup friction.",
+    "trend_reason": "Portable home entertainment devices are becoming lifestyle objects.",
+    "evidence": ["Media report", "Retail availability", "Brand product page"],
+    "commercial_judgment": "Mature enough to request sample pricing and distributor terms.",
+    "showroom_fit": "Strong demo fit for small-room lifestyle scenes.",
+    "risks": ["Projector category is crowded"],
+    "raw_score_signals": {
+      "novelty": 13,
+      "product_market_relevance": 15,
+      "evidence_strength": 14,
+      "content_value": 12,
+      "commercial_value": 14,
+      "showroom_fit": 9,
+      "trend_signal": 8,
+      "risk_penalty": 3
+    }
+  },
+  {
+    "source_name": "The Verge",
+    "source_region": "overseas",
+    "source_url": "https://www.theverge.com/example/desktop-robot",
+    "product_name": "DeskBot Companion",
+    "highlight": "A desktop robot designed for ambient AI companionship.",
+    "country_region": "Japan",
+    "stage": "preorder",
+    "product_category": ["robot", "ai-device"],
+    "target_audience": "Design-led gadget buyers",
+    "novelty_reason": "Turns AI companionship into a physical desk object.",
+    "trend_reason": "Embodied AI is becoming a visible consumer electronics trend.",
+    "evidence": ["Preorder page", "Hands-on article", "Demo video"],
+    "commercial_judgment": "Potential showroom partnership candidate if brand is open to launch displays.",
+    "showroom_fit": "Excellent interaction value for visitors.",
+    "risks": ["Price may be high"],
+    "raw_score_signals": {
+      "novelty": 19,
+      "product_market_relevance": 15,
+      "evidence_strength": 13,
+      "content_value": 15,
+      "commercial_value": 13,
+      "showroom_fit": 10,
+      "trend_signal": 10,
+      "risk_penalty": 4
+    }
+  }
+]
