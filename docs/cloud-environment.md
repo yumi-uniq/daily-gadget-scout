@@ -38,6 +38,22 @@ Use `config/cloud-task-prompt.md`.
 
 For fixture dry runs, keep agent internet access off.
 
+## Dry-Run Behavior
+
+Cloud dry runs should not create a PR, commit changes, or leave generated
+artifacts in the repository diff. Use a temporary output directory:
+
+```bash
+python -m pip install -e ".[test]"
+python -m pytest -q
+python -m gadget_scout.cli --fixtures tests/fixtures/candidates.json --out /tmp/gadget-scout-runs --run-date "$(date +%F)"
+git status --short
+```
+
+`git status --short` should be empty for a fixture dry run. Report the generated
+file paths and briefing content from `/tmp/gadget-scout-runs` in the Codex
+answer instead of committing them.
+
 For live scouting, enable agent internet access with:
 
 - Domain allowlist from `config/agent-internet-allowlist.md`

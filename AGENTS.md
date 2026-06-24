@@ -14,6 +14,8 @@ This repo contains the cloud-ready scaffold for YUMIUNIQ's daily gadget scouting
 - Do not enforce a fixed `未来好物` / `趋势好物` ratio.
 - Do not include `负责人` in WeCom smart sheet fields.
 - Do not write to WeCom or send bot messages unless the target docid, sheet_id, and chat/webhook are configured and the task explicitly asks for live output.
+- For dry runs, do not create a PR, commit changes, or leave generated artifacts in the repository.
+- Write dry-run outputs outside the repository, such as `/tmp/gadget-scout-runs`, unless the user explicitly asks to persist outputs in the repo.
 
 ## Setup
 
@@ -49,7 +51,8 @@ Expected:
 Run:
 
 ```bash
-python -m gadget_scout.cli --fixtures tests/fixtures/candidates.json --out runs --run-date 2026-06-24
+python -m pip install -e ".[test]"
+python -m gadget_scout.cli --fixtures tests/fixtures/candidates.json --out /tmp/gadget-scout-runs --run-date 2026-06-24
 ```
 
 Expected output includes:
